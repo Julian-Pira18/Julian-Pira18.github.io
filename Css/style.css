@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+
+p{
+    color:white;
+    width: 50%; margin: 0 auto;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+}
+
+footer{
+    background-color: rgb(8, 169, 187);
+    border: 1px solid black;
+    position: fixed;
+    bottom:1px;
+    height:50px;
+    width:100%;
+}
+
+
+h3{
+    color:white;
+    font-family: serif;
+}
+
+.header{
+    padding: 15px;
+    background-color: aqua;
+}
+
+.header__item{
+color: black;
+transition: 0.5s;
+}
+
+.header h2:hover {
+    color: rgb(255, 215, 0);
+}
+
+.contact {
+    list-style: none ;  
+}
+
+.contact__item {
+    display: inline-block;
+}
+
+.contact__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact__item a:hover{
+    color : White ;
+}
+
+.contact__item a::after {
+    content:"|"
+
+}
+
+
